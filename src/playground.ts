@@ -946,7 +946,7 @@ function reset(onStartup=false) {
   player.pause();
 
   let suffix = state.numHiddenLayers !== 1 ? "s" : "";
-  d3.select("#layers-label").text("Hidden layer" + suffix);
+  d3.select("#layers-label").text("神经网络隐藏层Hidden layer" + suffix);
   d3.select("#num-layers").text(state.numHiddenLayers);
 
   // Make a simple network.
